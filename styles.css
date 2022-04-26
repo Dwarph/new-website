@@ -10,6 +10,13 @@ body {
   letter-spacing: 5px;
 }
 
+.sub-title {
+  font-family: 'Quicksand', sans-serif;  color:#FF8CA8;
+  text-align:center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 .main-para{
   font-family: 'Nunito Sans', sans-serif;
   margin-top: 1cm;
@@ -32,26 +39,24 @@ body {
 .nav-btn{
   height: 50px;
   width: 150px;
+  line-height: 35px;
   letter-spacing: .175rem;
   margin-left: 10px;
   margin-right: 10px;
   font-size: small;
   background-image: linear-gradient(rgba(255,235,59,1) 30%, rgba(255,140,168,1) 100%);
   background-size: auto 200%;
-  transition: background-position 1s;
+  transition: all 1s;
   background-position: 0 0;  
-
   color: black; 
   border: 1.5px solid #ffffff;
   border-radius: 5.5px;
   font-family: 'Nunito Sans', sans-serif;
   text-transform: uppercase;
-  text-align: center;
+  vertical-align: middle;
 }
 
-.nav-btn:hover{
-  
+.nav-btn:hover{  
   border: 1px solid #FFEB3B;
   background-position: 0 70%;
-
 }
