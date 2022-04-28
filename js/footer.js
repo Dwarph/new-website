@@ -1,7 +1,7 @@
 const footerTemplate = document.createElement('template');
 
 footerTemplate.innerHTML = `
-<div class="mx-auto center container mt-5 text-center">
+<div class="mx-auto center container mt-5 mb-5 text-center">
 <a href="./index.html" class="nav-btn btn" role="button">Home</a>
 <a href="./About.html" class="nav-btn btn" role="button">About</a>
 <a href="./Portfolio.html" class="nav-btn btn" role="button">Portfolio</a>
