@@ -43,10 +43,11 @@ body {
   letter-spacing: .175rem;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 20px;
   font-size: small;
   background-image: linear-gradient(rgba(255,235,59,1) 30%, rgba(255,140,168,1) 100%);
   background-size: auto 200%;
-  transition: all 1s;
+  transition: all 0.5s;
   background-position: 0 0;  
   color: black; 
   border: 1.5px solid #ffffff;
@@ -59,4 +60,28 @@ body {
 .nav-btn:hover{  
   border: 1px solid #FFEB3B;
   background-position: 0 70%;
+}
+
+.footer-icon{
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  fill: black;
+}
+
+.svg-link{
+  position:relative; display:inline-block;
+  filter: invert(0%) sepia(0%) saturate(7466%) hue-rotate(321deg) brightness(107%) contrast(107%);
+  transition: all 0.5s;
+
+}
+
+.svg-link:hover{
+  filter: invert(70%) sepia(57%) saturate(2274%) hue-rotate(303deg) brightness(112%) contrast(119%);
+}
+
+.svg-link::after{
+  content:""; position:absolute; top:0; left:0; bottom:0; right:0;
 }
