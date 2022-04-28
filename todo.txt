@@ -1,0 +1,4 @@
+- fancy background - tree? nice three js animation
+- fancy portfolio page with tags
+- transitions between pages
+- centre about page?
