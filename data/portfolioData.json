@@ -125,7 +125,7 @@
         "image": "Mountains.gif",
         "imageAlt": "Procedurally generated mountain scene",
         "tags": [
-            "cpp",
+            "C++",
             "OpenGL",
             "University"
         ],
@@ -153,6 +153,22 @@
             {
                 "text": "Read",
                 "link": "https://medium.com/pip-writes-stuff"
+            }
+        ]
+    },
+    {
+        "title": "TRASHZINE",
+        "description": "I contributed to TRASHZINE, a zine focused on interviewing small game creators.",
+        "year": 2017,
+        "image": "TRASHZINE.png",
+        "imageAlt": "TRASHZINE",
+        "tags": [
+            "Writing"
+        ],
+        "links": [
+            {
+                "text": "Read",
+                "link": "https://trashzine.itch.io/trashzine-vol-1"
             }
         ]
     },
