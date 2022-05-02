@@ -10,11 +10,9 @@
             "C#",
             "XR",
             "Gamejam",
-            "Ultraleap",
-            "R&D"
+            "Ultraleap"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Read about it",
                 "link": "https://docs.ultraleap.com/ultralab/games-blog.html"
@@ -33,8 +31,7 @@
             "XR",
             "Ultraleap"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Press release",
                 "link": "https://www.ultraleap.com/company/news/press-release/gemini-v5-hand-tracking/"
@@ -51,11 +48,9 @@
             "Unity",
             "C#",
             "XR",
-            "Ultraleap",
-            "R&D"
+            "Ultraleap"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Download",
                 "link": "https://gallery.leapmotion.com/blocks/"
@@ -75,8 +70,7 @@
             "Ultraleap",
             "R&D"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Read about it",
                 "link": "https://docs.ultraleap.com/ultralab/xr-keyboard/"
@@ -99,8 +93,7 @@
             "Ultraleap",
             "R&D"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "See more",
                 "link": "https://developer.leapmotion.com/touchfree/"
@@ -118,15 +111,13 @@
             "C#",
             ".NET"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Browse an ALD Direct site",
                 "link": "https://www.lombardvehiclesolutions.co.uk/"
             }
         ]
     },
-
     {
         "title": "3D Procedurally Generated Nature Scene",
         "description": "Made for my final year dissertation. A nature scene made with procedural generation algorithms (DiamondSquare, and L-Systems).",
@@ -138,8 +129,7 @@
             "OpenGL",
             "University"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Source code",
                 "link": "https://github.com/Dwarph/3DPGNS"
@@ -159,8 +149,7 @@
         "tags": [
             "Writing"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Read",
                 "link": "https://medium.com/pip-writes-stuff"
@@ -189,14 +178,13 @@
             "Blender",
             "University"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Watch",
                 "link": "https://www.youtube.com/watch?v=VLY-zjLFJ3g"
             }
         ]
-    },    
+    },
     {
         "title": "QRTTNBPBYTROAYALID",
         "description": "Quick, Run to The Next Battery Pack Before Your Torch Runs Out and You Are Left In Darkness!, (or QRTTNBPBYTROAYALID), is an infinite runner created by myself and <a href=\"https://twitter.com/spacebabedev\"> Poppy Lomax</a> for Ludum Dare #39 - a game jam run over three days. Poppy worked on the art and platform design, whilst I worked on the code, Unity gubbins and game feel.",
@@ -208,8 +196,7 @@
             "C#",
             "Gamejam"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Play",
                 "link": "https://hozomeen.itch.io/quick-run-to-the-next-battery-pack-before-your-torch-runs-out-and-you-are-left-in-darkness"
@@ -226,7 +213,7 @@
             "Java",
             "University"
         ]
-    },    
+    },
     {
         "title": "Rare Cover Letter",
         "description": "Rare Cover Letter is an interactive cover letter I made in a few days in order to apply to Rare's Industrial Placement. They specified that they wanted something creative, instead of a normal cover letter - so I made this.",
@@ -237,8 +224,7 @@
             "Unity",
             "C#"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Play",
                 "link": "https://dwarph.itch.io/rare-cover-letter"
@@ -255,8 +241,7 @@
             "Unity",
             "C#"
         ],
-        "links":
-        [
+        "links": [
             {
                 "text": "Play",
                 "link": "https://dwarph.itch.io/space-invaders"
