@@ -36,6 +36,8 @@ loadJSON(function (items) {
 
         var cardMeta = "";
         var tagFilterButtons = "";
+
+        items[i].tags.sort();
         var tagList = "[";
         for (var j = 0; j < items[i].tags.length; j++) {
             cardMeta += items[i].tags[j] + ", ";
