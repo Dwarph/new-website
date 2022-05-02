@@ -2,3 +2,5 @@
 - fancy portfolio page with tags
 - transitions between pages
 - centre about page?
+
+- make into one page app?

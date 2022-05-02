@@ -12,6 +12,13 @@
             "Gamejam",
             "Ultraleap",
             "R&D"
+        ],
+        "links":
+        [
+            {
+                "text": "Read about it",
+                "link": "https://docs.ultraleap.com/ultralab/games-blog.html"
+            }
         ]
     },
     {
@@ -25,6 +32,13 @@
             "C#",
             "XR",
             "Ultraleap"
+        ],
+        "links":
+        [
+            {
+                "text": "Press release",
+                "link": "https://www.ultraleap.com/company/news/press-release/gemini-v5-hand-tracking/"
+            }
         ]
     },
     {
@@ -39,6 +53,13 @@
             "XR",
             "Ultraleap",
             "R&D"
+        ],
+        "links":
+        [
+            {
+                "text": "Download",
+                "link": "https://gallery.leapmotion.com/blocks/"
+            }
         ]
     },
     {
@@ -53,6 +74,17 @@
             "XR",
             "Ultraleap",
             "R&D"
+        ],
+        "links":
+        [
+            {
+                "text": "Read about it",
+                "link": "https://docs.ultraleap.com/ultralab/xr-keyboard/"
+            },
+            {
+                "text": "Source code",
+                "link": "https://github.com/ultraleap/XR-Keyboard/"
+            }
         ]
     },
     {
@@ -66,6 +98,13 @@
             "C#",
             "Ultraleap",
             "R&D"
+        ],
+        "links":
+        [
+            {
+                "text": "See more",
+                "link": "https://developer.leapmotion.com/touchfree/"
+            }
         ]
     },
     {
@@ -78,6 +117,13 @@
             "Javascript",
             "C#",
             ".NET"
+        ],
+        "links":
+        [
+            {
+                "text": "Browse an ALD Direct site",
+                "link": "https://www.lombardvehiclesolutions.co.uk/"
+            }
         ]
     },
 
@@ -85,12 +131,23 @@
         "title": "3D Procedurally Generated Nature Scene",
         "description": "Made for my final year dissertation. A nature scene made with procedural generation algorithms (DiamondSquare, and L-Systems).",
         "year": 2018,
-        "image": "Mountains.png",
+        "image": "Mountains.gif",
         "imageAlt": "Procedurally generated mountain scene",
         "tags": [
             "cpp",
             "OpenGL",
             "University"
+        ],
+        "links":
+        [
+            {
+                "text": "Source code",
+                "link": "https://github.com/Dwarph/3DPGNS"
+            },
+            {
+                "text": "Devlog",
+                "link": "https://twitter.com/dwarph/status/968892031220232192"
+            }
         ]
     },
     {
@@ -101,6 +158,13 @@
         "imageAlt": "A screenshot of a blog on medium",
         "tags": [
             "Writing"
+        ],
+        "links":
+        [
+            {
+                "text": "Read",
+                "link": "https://medium.com/pip-writes-stuff"
+            }
         ]
     },
     {
@@ -124,6 +188,13 @@
         "tags": [
             "Blender",
             "University"
+        ],
+        "links":
+        [
+            {
+                "text": "Watch",
+                "link": "https://www.youtube.com/watch?v=VLY-zjLFJ3g"
+            }
         ]
     },    
     {
@@ -136,6 +207,13 @@
             "Unity",
             "C#",
             "Gamejam"
+        ],
+        "links":
+        [
+            {
+                "text": "Play",
+                "link": "https://hozomeen.itch.io/quick-run-to-the-next-battery-pack-before-your-torch-runs-out-and-you-are-left-in-darkness"
+            }
         ]
     },
     {
@@ -158,6 +236,13 @@
         "tags": [
             "Unity",
             "C#"
+        ],
+        "links":
+        [
+            {
+                "text": "Play",
+                "link": "https://dwarph.itch.io/rare-cover-letter"
+            }
         ]
     },
     {
@@ -169,6 +254,13 @@
         "tags": [
             "Unity",
             "C#"
+        ],
+        "links":
+        [
+            {
+                "text": "Play",
+                "link": "https://dwarph.itch.io/space-invaders"
+            }
         ]
     }
 ]
