@@ -3,6 +3,18 @@ body {
   font-size: 28px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.main{
+  margin-bottom: 30px
+}
+
 .main-title {
   font-family: 'Quicksand', sans-serif;
   color: #FF8CA8;

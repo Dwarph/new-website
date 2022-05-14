@@ -10,6 +10,7 @@ function loadJSON(callback) {
     xobj.send(null);
 }
 
+// Load the portfolio items, sorted by year
 loadJSON(function (items) {
     items.sort(function (a, b) {
         return b.year - a.year;
@@ -18,12 +19,21 @@ loadJSON(function (items) {
     var years = [];
     var tags = [];
 
+    // Loop through all items
     for (var i = 0; i < items.length; i++) {
+        // If we haven't generated a year "card" for the item yet, generate that first
         if (!years.includes(items[i].year)) {
             years.push(items[i].year);
 
+            document.getElementById('portfolio').innerHTML +=`
+            <div class="container-fluid py-2 row">
+            <div class="d-flex flex-col flex-wrap overflow-auto card-deck" id="portfolio-${items[i].year}">
+        
+            </div>
+          </div>
+            `;
             // add year item to DOM
-            document.getElementById('portfolio').innerHTML += `
+            document.getElementById(`portfolio-${items[i].year}`).innerHTML += `
             <div class="my-auto">
             <div class="card card-year">
               <div class="card-body d-flex align-items-center justify-content-center">
@@ -37,7 +47,9 @@ loadJSON(function (items) {
         var cardMeta = "";
         var tagFilterButtons = "";
 
+        //Sort the tag list on an item alphabetically
         items[i].tags.sort();
+        //Generate the tag list string & card metadata
         var tagList = "[";
         for (var j = 0; j < items[i].tags.length; j++) {
             cardMeta += items[i].tags[j] + ", ";
@@ -48,12 +60,13 @@ loadJSON(function (items) {
             }
         }
 
-
+        // Remove unnecessary chars from end of meta & tag list
         cardMeta = cardMeta.slice(0, -2);
 
         tagList = tagList.slice(0, -1);
         tagList += "\"";
 
+        //Generate list of links for the card
         var links = "";
         if (items[i].links != undefined) {
             for (var j = 0; j < items[i].links.length; j++) {
@@ -64,9 +77,10 @@ loadJSON(function (items) {
                 `;
             }
         }
-        // add portfolio item to DOM
-        document.getElementById('portfolio').innerHTML += `
-        <div class="mt-5 card-portfolio-parent" data-tagList=${items[i].tags}>
+
+        //Generate the card using the above info & add to DOM
+        document.getElementById(`portfolio-${items[i].year}`).innerHTML += `
+        <div class="mt-5 card-portfolio-parent" data-tagList=${items[i].tags} data-year=${items[i].year}>
             <div class="card card-portfolio">
                 <img class="card-img-top" src="../images/${items[i].image}" alt="${items[i].imageAlt}">
                 <div class="card-body">
@@ -80,17 +94,21 @@ loadJSON(function (items) {
         `;
     }
 
+    // Sort all the tags alphabetically
     tags.sort();
+    //For each tag add a filter button
     for (var i = 0; i < tags.length; i++) {
         tagFilterButtons += `
         <input type=\"checkbox\" class=\"btn-check\" id=\"${tags[i]}\" autocomplete=\"off\" OnClick>
         <label class=\"btn btn-outline-primary\" for=\"${tags[i]}\">${tags[i]}</label>
         `
     }
+    // add all buttons to the DOM
     document.getElementById('tag-filters').innerHTML += `
     ${tagFilterButtons}
     `;
 
+    //Add a listener to each tag, which filters the cards based on the tag selected
     for (var i = 0; i < tags.length; i++) {
         document.getElementById(tags[i]).addEventListener('change', function () {
             var portfolioItems = document.getElementsByClassName("card-portfolio-parent");

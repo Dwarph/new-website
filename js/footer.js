@@ -17,6 +17,8 @@ footerTemplate.innerHTML = `
   <object type="image/svg+xml" data="icons/twitter.svg" class="footer-icon"></object>
 </a>
 </div>
+<div class="bottombar">this is some text </div>
+
 `;
 
 document.body.appendChild(footerTemplate.content);

@@ -14,25 +14,49 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Quicksand:wght@700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="YellowStyle.css">
   <title>Pip Turner</title>
 </head>
 
 <body>
-  <div class="mt-5">
-    <h1 class="h3 sub-title">Portfolio</h1>
-    <p class="main-para mx-auto .w-25">After graduating in 2018 from Aberystwyth with a CS degree, I worked at ALD
-      Automotive for a year as a Full Stack Engineer, before heading over to Ultraleap. I currently work as an XR Design
-      Engineer in their XR team, where I create, design and write about hand interactions.</p>
-  </div>
-  <div class="mt-5 mx-auto main-para" id="tag-filters">
-    
-  </div>
+  <div class="main">
 
-  <div class="container-fluid py-2 row">
-    <div class="d-flex flex-row flex-nowrap overflow-auto card-deck" id="portfolio">
+    <div class="mt-5">
+      <h1 class="h3 sub-title">Portfolio</h1>
+      <p class="main-para mx-auto .w-25">After graduating in 2018 from Aberystwyth with a CS degree, I worked at ALD
+        Automotive for a year as a Full Stack Engineer, before heading over to Ultraleap. I currently work as an XR
+        Design
+        Engineer in their XR team, where I create, design and write about hand interactions.</p>
+    </div>
+    <div class="mt-5 mx-auto main-para" id="tag-filters">
 
     </div>
+
+    <div class="container-fluid py-2 row">
+      <div class="d-flex flex-col flex-wrap overflow-auto">
+        <div class="container-fluid py-2 row">
+          <div class="d-flex flex-col flex-wrap overflow-auto" id="dropdown">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid py-2 row">
+          <div class="d-flex flex-col flex-wrap overflow-auto card-deck" id="portfolio">
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 
 </body>

@@ -12,8 +12,8 @@
         ],
         "links": [
             {
-                "text": "Source Code and gifs, ",
-                "link": "https://github.com/Dwarph/Noise-P5"
+                "text": "Blogpost, ",
+                "link": "https://www.ultraleap.com/company/news/blog/hand-tracking-vr-game-design-tips/"
             }
         ]
     },
@@ -176,7 +176,7 @@
     },
     {
         "title": "Pip Writes Stuff/ Itching For More",
-        "description": "I ran an alt-games & poetry blog from 2014 to 2017, posting twice weekly. I featured small, relatively unknown games found on itch.io, as well as interviewing their creators. My writing was featured twice in Rock Paper Shotgun's \"Sunday Papers\"",
+        "description": "I ran an alt-games & poetry blog from 2014 to 2017, posting twice weekly. I featured small, relatively unknown games found on itch.io, as well as interviewing their creators. My writing was featured twice in Rock Paper Shotgun's \"Sunday Papers\", and contributed to TRASHZINE",
         "year": 2017,
         "image": "PipWritesStuff.png",
         "imageAlt": "A screenshot of a blog on medium",
@@ -185,23 +185,11 @@
         ],
         "links": [
             {
-                "text": "Read",
+                "text": "Pip Writes Stuff,",
                 "link": "https://medium.com/pip-writes-stuff"
-            }
-        ]
-    },
-    {
-        "title": "TRASHZINE",
-        "description": "I contributed to TRASHZINE, a zine focused on interviewing small game creators.",
-        "year": 2017,
-        "image": "TRASHZINE.png",
-        "imageAlt": "TRASHZINE",
-        "tags": [
-            "Writing"
-        ],
-        "links": [
+            },
             {
-                "text": "Read",
+                "text": "TRASHZINE,",
                 "link": "https://trashzine.itch.io/trashzine-vol-1"
             }
         ]
