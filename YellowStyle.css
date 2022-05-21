@@ -261,3 +261,12 @@ body {
 #footer{
   padding-bottom: 20px
 }
+
+#portfolio-items {
+  transition: all 0.5s;
+  max-height: auto;
+}
+
+#portfolio-items.pre-animation {
+  opacity:0;
+}

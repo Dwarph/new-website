@@ -242,7 +242,12 @@ function loadSingleRow() {
 }
 
 function checkAlert(evt) {
-      document.getElementById(`portfolio-items`).innerHTML = yearsDict[evt.target.value];
+      document.getElementById(`portfolio-items`).classList.add('pre-animation');
+      
+      setTimeout(function(){
+          document.getElementById(`portfolio-items`).innerHTML = yearsDict[evt.target.value];
+        document.getElementById(`portfolio-items`).classList.remove('pre-animation');
+    },500);
 
     
   }
