@@ -3,6 +3,18 @@ body {
   font-size: 28px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.main{
+  margin-bottom: 30px
+}
+
 .main-title {
   font-family: 'Quicksand', sans-serif;
   color: #FF8CA8;
@@ -23,8 +35,11 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   font-size: large;
   margin-top: 1cm;
-  width: 80%;
+  width: 50%;
   text-align: center;
+  padding:  20px;
+  border: 2px solid #FF8CA8;
+  border-radius: 30px;
 }
 
 .profile-image {
@@ -159,6 +174,9 @@ body {
   font-size: 15px;
   font-family: 'Nunito Sans', sans-serif;
 }
+#portfolio{
+  justify-content: center;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -223,4 +241,23 @@ body {
 }
 #Hvideo {
   transition: opacity 0.4s ease-in-out;
+}
+
+.form-select{
+  width: 120px;
+  color: #FF8CA8;
+  background-color: #FFEB3B;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  border-color: #FF8CA8;
+  border-width: 2px;
+}
+
+
+#year-selector{
+  margin-top: 25px;
+}
+
+#footer{
+  padding-bottom: 20px
 }
