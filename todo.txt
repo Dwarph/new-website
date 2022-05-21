@@ -1,1 +1,2 @@
 - fancy background - tree? nice three js animation
+- fix bg transition for portfolio
