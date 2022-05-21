@@ -171,6 +171,9 @@ body {
   font-size: 15px;
   font-family: 'Nunito Sans', sans-serif;
 }
+#portfolio{
+  justify-content: center;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -235,4 +238,14 @@ body {
 }
 #Hvideo {
   transition: opacity 0.4s ease-in-out;
+}
+
+.form-select{
+  width: 120px;
+  color: #FF8CA8;
+  background-color: #FFEB3B;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  border-color: #FF8CA8;
+  border-width: 2px;
 }
