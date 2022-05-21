@@ -248,9 +248,15 @@ function checkAlert(evt) {
           document.getElementById(`portfolio-items`).innerHTML = yearsDict[evt.target.value];
         document.getElementById(`portfolio-items`).classList.remove('pre-animation');
     },500);
-
-    
   }
+
+function toggleTheme(evt){
+    if(!evt.target.checked){
+        document.documentElement.className = "white";
+    } else {
+        document.documentElement.className = "yellow";
+    }
+}
 
 loadSingleRow();
 //loadAllContent();

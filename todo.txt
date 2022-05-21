@@ -1,6 +1,1 @@
 - fancy background - tree? nice three js animation
-- transitions between pages
-- centre about page?
-
-- make into one page app?
-- make portfolio card links prettier

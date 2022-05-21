@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Quicksand:wght@700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="YellowStyle.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Pip Turner</title>
 </head>
 
@@ -24,17 +24,26 @@
   <div class="container mt-5">
     <h1 class="display-3 main-title">Hello!</h1>
     <div class="mx-auto d-flex justify-content-center">
-    👋
+      👋
     </div>
     <div class="mx-auto d-flex justify-content-center">
 
-      <p class="main-para">I'm Pip! <br> Currently, I'm an XR Design Engineer at Ultraleap where I create,
-         design and write about Hand Interactions.<br><br> Outside of work I enjoy going to church, playing guitar, reading,
+        <p class="main-para text-box">I'm Pip! <br> Currently, I'm an XR Design Engineer at Ultraleap where I create,
+          design and write about Hand Interactions.<br><br> Outside of work I enjoy going to church, playing guitar,
+          reading,
           making games, watching studio ghibli films & eating cake.</p>
-
     </div>
   </div>
 
+  <div class="col-sm-12 d-flex justify-content-center main-para" style="margin-bottom: -40px;">
+    Toggle yellow theme 👇
+  </div>
+  <div class="col-sm-12 d-flex justify-content-center ">
+    <div class="material-switch pull-right main-para">
+      <input id="theme-checkbox" name="theme-checkbox" type="checkbox" onchange="toggleTheme(event)" checked/>
+      <label for="theme-checkbox" class="label-primary"> </label>
+    </div>
+  </div>
   <div class="main">
 
     <div class="mt-5">
