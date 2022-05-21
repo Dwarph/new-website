@@ -19,28 +19,29 @@
 
 <body>
   <div class="container mt-5">
-    <img class="mx-auto profile-image" src="images/hello.jpg">
+    <img class="mx-auto profile-image" src="images/hello.jpg" title="Me and a good friend">
   </div>
-
   <div class="container mt-5">
     <h1 class="display-3 main-title">Hello!</h1>
-    <p class="main-para mx-auto .w-25">👋Hello! I'm Pip - currently an XR Design Engineer at Ultraleap. I get excited
-      about interaction design, software engineering and love a bit of agile practices on the side.</p>
-      <p class="main-para mx-auto .w-25">Outside of work I enjoy going to church, playing guitar, reading,
-        making games, watching studio ghibli films & eating cake.</p>
+    <div class="mx-auto d-flex justify-content-center">
+    👋
+    </div>
+    <div class="mx-auto d-flex justify-content-center">
+
+      <p class="main-para">I'm Pip! <br> Currently, I'm an XR Design Engineer at Ultraleap where I create,
+         design and write about Hand Interactions.<br><br> Outside of work I enjoy going to church, playing guitar, reading,
+          making games, watching studio ghibli films & eating cake.</p>
+
+    </div>
   </div>
 
   <div class="main">
 
     <div class="mt-5">
       <h1 class="display-3 main-title">Portfolio</h1>
-      <p class="main-para mx-auto .w-25">After graduating in 2018 from Aberystwyth with a CS degree, I worked at ALD
-        Automotive for a year as a Full Stack Engineer, before heading over to Ultraleap. I currently work as an XR
-        Design
-        Engineer in their XR team, where I create, design and write about hand interactions.</p>
     </div>
     <div class="col-sm-12 d-flex justify-content-center ">
-      <select class="form-select" aria-label="Default select example" onchange="checkAlert(event)">
+      <select class="form-select" id="year-selector" aria-label="Default select example" onchange="checkAlert(event)">
         <option value="2022">2022</option>
         <option value="2021">2021</option>
         <option value="2020">2020</option>

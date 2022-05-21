@@ -35,8 +35,11 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   font-size: large;
   margin-top: 1cm;
-  width: 80%;
+  width: 50%;
   text-align: center;
+  padding:  20px;
+  border: 2px solid #FF8CA8;
+  border-radius: 30px;
 }
 
 .profile-image {
@@ -248,4 +251,9 @@ body {
   font-weight: bold;
   border-color: #FF8CA8;
   border-width: 2px;
+}
+
+
+#year-selector{
+  margin-top: 25px;
 }
