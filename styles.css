@@ -46,8 +46,18 @@ body {
   margin-top: 1cm;
 }
 
+@media (max-width: 800px) {
+  .text-box {
+    width: 90%;
+  }
+}
+
+@media (min-width: 800px) {
+  .text-box {
+    width: 50%;
+  }
+}
 .text-box {
-  width: 50%;
   text-align: center;
   padding:  20px;
   border: 2px solid var(--secondary-color);
