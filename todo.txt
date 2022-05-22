@@ -1,3 +1,1 @@
 - fancy background - tree? nice three js animation
-- add all option
-- mobile pass
